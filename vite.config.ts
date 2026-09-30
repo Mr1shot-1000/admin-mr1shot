@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/admin-mr1shot/', // تم إضافة هذا السطر لحل مشكلة الصفحة البيضاء
   plugins: [react()],
   resolve: {
     alias: {
